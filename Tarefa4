@@ -16,6 +16,8 @@
     Concedendo privilégios: GRANT SELECT ON EquipeBD.Equipe,Membro,Atividade,AtividadeProjeto TO 'empresa_gerente'@'localhost';
     
 6)  Criação do usuário: CREATE USER 'empresa_supervisor'@'localhost' IDENTIFIED BY 'es12345';
+
+7)
    
 8)  Os indices funcionam como um sumário de um livro, ou seja, existem para facilitar a localização do conteúdo, são capazes de reduzir a quantidade de dados que o servidor tem 
    que examinar, podendo ajudar o servidor a ordenar e evitar a criação de tabelas temporárias.
