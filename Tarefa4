@@ -1,0 +1,13 @@
+1)  CREATE DATABASE EquipeBD CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+2)
+
+3)  Criação do usuário: CREATE USER 'empresa_admin_local'@'localhost' IDENTIFIED BY 'eal123';
+   
+    Concedendo privilégios: GRANT ALL PRIVILEGES ON EquipeBD.* TO 'empresa_admin_local'@'localhost';
+
+4)  Criação do usuário: CREATE USER 'empresa_admin'@'%' IDENTIFIED BY 'ea1234'; 
+  
+    Concedendo privilégios: GRANT ALL PRIVILEGES ON EquipeBD.* TO 'empresa_admin_local'@'%';
+    
+5)  Criação do usuário: CREATE USER 'empresa_gerente'@'%' IDENTIFIED BY 'eg12345';
